@@ -1,0 +1,25 @@
+
+.fas.fa-star::before{
+     font-family: "Font Awesome 5 Free"; font-weight: 400; content: "\f005";;
+}
+.reviews{
+      width: 115px;
+    margin: 10px 0;
+}
+.reviews input{
+    display: none;
+}
+.reviews label{
+    color: #999;
+    margin: 5px 0;
+    padding-right: 5px;
+    cursor: pointer;
+    float: right;
+}
+.reviews input:not(:checked) ~ label:hover,
+.reviews input:not(:checked) ~ label:hover ~ label{
+    color: crimson;
+}
+.reviews input:checked ~ label{
+    color: crimson;
+}

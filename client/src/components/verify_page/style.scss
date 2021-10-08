@@ -1,0 +1,21 @@
+.verify_account-wrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img{
+        width: 400px;
+    }
+    .verify_account{
+        text-align: center;
+        font-size: 1.6rem;
+        font-weight: 700;
+        p{
+           
+        }
+        button{
+            padding: 1.6rem 3rem;
+            background: hsl(44, 98%, 58%);
+            border-radius: 20px;
+        }
+    }
+}
